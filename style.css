@@ -26,6 +26,8 @@ body{
 
 .card__image{
     width: 100%;
+    /* display: inline-block; */
+    display: block;
 }
 
 .content{
@@ -72,8 +74,9 @@ body{
     .content{
         align-items: flex-start;
         text-align: start;
-        padding: 4.5rem 4.5rem 3.5rem 3.5rem;
+        /* padding: 4.5rem 4.5rem 3.5rem 3.5rem; */
         order: -1;
+        padding: .77rem 1.3rem;
     }
 
     .stats{
@@ -86,5 +89,23 @@ body{
 
     .content__title{
         font-size: 1.8rem;
+    }
+}
+
+/* @media screen and (min-width:769px) and (max-width:1024px) {
+    .content{
+        padding: .77rem 1.3rem;
+    }
+} */
+
+@media screen and (min-width:911px) {
+    .content{
+        padding: 3rem 2.4rem;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .content{
+        padding: 4.5rem 4.5rem 3.5rem 3.5rem;
     }
 }
