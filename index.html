@@ -16,7 +16,9 @@
 
     <picture>
       <source class="card__image" media="(min-width:769px)" srcset="./images/image-header-desktop.jpg">
-      <img class="card__image" src="./images/image-header-mobile.jpg" alt="">
+      <div class="image-wrapper">
+        <img class="card__image" src="./images/image-header-mobile.jpg" alt="">
+      </div>
     </picture>
 
     <article class="content">
@@ -25,11 +27,11 @@
         <p class="content__description">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
       </div>
       
-      <aside class="stats">
-        <p class="stats__content">10k+ <br> <span class="stats__headings">companies</span> </p>
-        <p class="stats__content">314 <br> <span class="stats__headings">templates</span> </p>
-        <p class="stats__content">12M+ <br> <span class="stats__headings">queries</span> </p>
-      </aside>
+      <ul class="stats">
+        <li class="stats__content">10k+ <span class="stats__headings">companies</span> </li>
+        <li class="stats__content">314  <span class="stats__headings">templates</span> </li>
+        <li class="stats__content">12M+ <span class="stats__headings">queries</span> </li>
+      </ul>
     </article>
     
   </section>

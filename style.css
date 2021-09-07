@@ -29,6 +29,7 @@ body{
     /* display: inline-block; */
     display: block;
     mix-blend-mode: multiply;
+    /* background-blend-mode: multiply; */
 }
 
 .content{
@@ -62,15 +63,24 @@ body{
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
+    display: block;
 }
 
 .content__title{
     font-size: 1.7em;
 }
 
-.card picture{
+/* .card picture{
     background-color: hsl(277, 64%, 61%);
-    /* background-blend-mode: ; */
+    background-blend-mode: ;
+} */
+
+.image-wrapper{
+    background-color: hsl(277, 64%, 61%);
+}
+
+.stats{
+    list-style: none;
 }
 
 @media screen and (min-width:769px) {
