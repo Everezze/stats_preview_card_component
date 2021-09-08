@@ -83,6 +83,10 @@ body{
     list-style: none;
 }
 
+#desktop-image{
+    display: none;
+}
+
 @media screen and (min-width:769px) {
     .card{
         display: flex;
@@ -114,6 +118,18 @@ body{
         line-height: 1.4rem;
         font-size: .9rem;
     }
+
+    #desktop-image{
+        display: block;
+    }
+
+    #mobile-image{
+        display: none;
+    }
+
+    .image-wrapper{
+        width: 50%;
+    }
 }
 
 /* @media screen and (min-width:769px) and (max-width:1024px) {
@@ -125,6 +141,7 @@ body{
 @media screen and (min-width:911px) {
     .content{
         padding: 2.8rem 2.4rem;
+        /* padding: 2.5rem; */
     }
 }
 
